@@ -31,6 +31,7 @@ int main(int argc, char **argv){
   printf("======================\n");
   selection(c,N);
   printf("======================\n");
+  printf("\n");
 
 
   printf("BubleSorted\n");
@@ -53,8 +54,6 @@ int main(int argc, char **argv){
 
 bye:
   printf("\n=============");
-  //clock_t toc = clock();
-  //printf("\nRunning Time: %f milliseconds\n", ((double)(toc - tic) / CLOCKS_PER_SEC)*1000);
   printf("\n");
 }
 

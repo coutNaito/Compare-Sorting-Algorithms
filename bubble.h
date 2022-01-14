@@ -29,7 +29,6 @@ float BubbleSort(int x[],int n){
     //display(x,n);
   }
   clock_t toc = clock();
-  time = (((double)(toc - tic) / CLOCKS_PER_SEC)*1000);
   printf("Bubblesort swap %d time\n",swap_count);
   printf("Running Time: %f milliseconds\n", ((double)(toc - tic) / CLOCKS_PER_SEC)*1000);
   return time;
