@@ -7,10 +7,10 @@ void insertSort(int x[], int n)
     value = x[i];
     for (j = i - 1; j >= 0 && x[j] > value ; j--){
       x[j + 1] = x[j];
-      swap_count++;
       //display(x,n);
     }
     x[j + 1] = value;
+    swap_count++;
     //display(x,n);
     //printf("==================\n");
   }
